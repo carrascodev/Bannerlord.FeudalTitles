@@ -1,0 +1,20 @@
+<Prefab>
+    <Constants>
+        <!-- Insert Summary Here -->
+    </Constants>
+    <Variables>
+        <!-- Insert Summary Here -->
+    </Variables>
+    <VisualDefinitions>
+        <!-- Insert Summary Here -->
+    </VisualDefinitions>
+    <Window>
+        <UltralightWidget
+                WidthSizePolicy="Fixed"
+                VerticalAlignment="Bottom"
+                HorizontalAlignment="Right"
+                HeightSizePolicy="Fixed">
+
+        </UltralightWidget>
+    </Window>
+</Prefab>
