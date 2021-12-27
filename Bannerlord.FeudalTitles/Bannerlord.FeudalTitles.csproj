@@ -68,7 +68,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Patches" />
     <Folder Include="_Module\assets" />
   </ItemGroup>
 </Project>

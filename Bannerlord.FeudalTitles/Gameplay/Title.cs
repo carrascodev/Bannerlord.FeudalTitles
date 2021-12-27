@@ -10,13 +10,9 @@ public class Title
     private string _landId;
     public string LandId => _landId;
 
-    private Hero _owner;
-    public Hero Owner => _owner;
-
-    public Title(string name, string landId, Hero owner = null)
+    public Title(string name, string landId)
     {
         _name = name;
         _landId = landId;
-        _owner = owner;
     }
 }
