@@ -1,0 +1,22 @@
+{
+  "Lands": [
+    {
+      "Id": "Land_01",
+      "Name": "Vila Carioca",
+      "SettlementIds": [
+        "settlement_00",
+        "settlement_01",
+        "settlement_02"
+      ]
+    },
+    {
+      "Id": "Land_02",
+      "Name": "Vila Paulista",
+      "SettlementIds": [
+        "settlement_04",
+        "settlement_05",
+        "settlement_06"
+      ]
+    }
+  ]
+}

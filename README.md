@@ -11,8 +11,9 @@ With [Crusader Blade](https://crusaderblade.itch.io/crusaderblade) they brought 
 ### Future (VERSION 2)
 * Vassalage System
 * Diplomacy based on titles.
-  * Declare civil wars for titles.
+  * Declare (civil) war for title.
   * Revoke titles
+  * Claim titles
 * Lands not based on default relation of land but rather on territory
   * Land Slots - Village / Castles / Town construction feature.
 
