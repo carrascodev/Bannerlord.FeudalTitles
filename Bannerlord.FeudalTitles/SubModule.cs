@@ -1,6 +1,8 @@
-﻿using Bannerlord.UIExtenderEx;
+﻿using System.Linq;
+using Bannerlord.UIExtenderEx;
 using Nito.AsyncEx;
 using Serilog;
+using TaleWorlds.Core;
 using TaleWorlds.Engine.GauntletUI;
 using TaleWorlds.Engine.Screens;
 using TaleWorlds.GauntletUI;
@@ -14,13 +16,11 @@ namespace Bannerlord.FeudalTitles
         protected override void OnSubModuleLoad()
         {
             base.OnSubModuleLoad();
-            
         }
 
         protected override void OnSubModuleUnloaded()
         {
             base.OnSubModuleUnloaded();
-
         }
 
         protected override void OnBeforeInitialModuleScreenSetAsRoot()
