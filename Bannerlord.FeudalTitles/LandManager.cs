@@ -60,7 +60,7 @@ public class LandManager : GenericSingleton<LandManager>
         _lands.Add(land);
     }
 
-    public void CreateAndPopulateLands()
+    public void GenerateLands()
     {
         foreach (var settlement in Campaign.Current.Settlements.Where(t => t.IsTown || t.IsCastle))
         {

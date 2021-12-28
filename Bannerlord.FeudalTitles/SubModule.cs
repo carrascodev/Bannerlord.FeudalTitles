@@ -36,7 +36,7 @@ namespace Bannerlord.FeudalTitles
         public override void OnAfterGameInitializationFinished(Game game, object starterObject)
         {
             base.OnAfterGameInitializationFinished(game, starterObject);
-            LandManager.Instance.CreateAndPopulateLands();
+            LandManager.Instance.GenerateLands();
         }
     }
 }

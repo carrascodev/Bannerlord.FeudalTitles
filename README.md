@@ -1,5 +1,5 @@
 # About
-With [Crusader Blade](https://crusaderblade.itch.io/crusaderblade) they brought Bannerlord to CK3. This mod is a small piece for bringing CK3 to Bannerlord. 
+This mod aims to bring a small piece of CK3 to Bannerlord.
 
 ## Features Breakdown
 
@@ -10,6 +10,7 @@ With [Crusader Blade](https://crusaderblade.itch.io/crusaderblade) they brought 
 
 ### Future (VERSION 2)
 * Vassalage System
+  * Encyclopedia category or clan tab addressing that.
 * Diplomacy based on titles.
   * Declare (civil) war for title.
   * Revoke titles
