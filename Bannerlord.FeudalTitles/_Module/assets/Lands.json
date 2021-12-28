@@ -1,21 +1,996 @@
 {
   "Lands": [
     {
-      "Id": "Land_01",
-      "Name": "Vila Carioca",
+      "Id": "land_of_castle_EN1",
+      "Name": "Land of Varagos Castle",
       "SettlementIds": [
-        "settlement_00",
-        "settlement_01",
-        "settlement_02"
+        "castle_EN1",
+        "castle_village_EN1_2"
       ]
     },
     {
-      "Id": "Land_02",
-      "Name": "Vila Paulista",
+      "Id": "land_of_castle_EN2",
+      "Name": "Land of Lochana Castle",
       "SettlementIds": [
-        "settlement_04",
-        "settlement_05",
-        "settlement_06"
+        "castle_EN2",
+        "castle_village_EN2_2"
+      ]
+    },
+    {
+      "Id": "land_of_castle_EN3",
+      "Name": "Land of Rhesos Castle",
+      "SettlementIds": [
+        "castle_EN3",
+        "castle_village_EN3_2"
+      ]
+    },
+    {
+      "Id": "land_of_castle_EN4",
+      "Name": "Land of Gaos Castle",
+      "SettlementIds": [
+        "castle_EN4",
+        "castle_village_EN4_2"
+      ]
+    },
+    {
+      "Id": "land_of_castle_EN5",
+      "Name": "Land of Atrion Castle",
+      "SettlementIds": [
+        "castle_EN5",
+        "castle_village_EN5_2"
+      ]
+    },
+    {
+      "Id": "land_of_castle_EN6",
+      "Name": "Land of Ataconia Castle",
+      "SettlementIds": [
+        "castle_EN6",
+        "castle_village_EN6_2"
+      ]
+    },
+    {
+      "Id": "land_of_castle_EN7",
+      "Name": "Land of Epinosa Castle",
+      "SettlementIds": [
+        "castle_EN7",
+        "castle_village_EN7_2"
+      ]
+    },
+    {
+      "Id": "land_of_castle_EN8",
+      "Name": "Land of Syratos Castle",
+      "SettlementIds": [
+        "castle_EN8",
+        "castle_village_EN8_2"
+      ]
+    },
+    {
+      "Id": "land_of_castle_EN9",
+      "Name": "Land of Mecalovea Castle",
+      "SettlementIds": [
+        "castle_EN9",
+        "castle_village_EN9_2"
+      ]
+    },
+    {
+      "Id": "land_of_town_EN1",
+      "Name": "Land of Epicrotea",
+      "SettlementIds": [
+        "town_EN1",
+        "village_EN1_2",
+        "village_EN1_3"
+      ]
+    },
+    {
+      "Id": "land_of_town_EN2",
+      "Name": "Land of Diathma",
+      "SettlementIds": [
+        "town_EN2",
+        "village_EN2_2"
+      ]
+    },
+    {
+      "Id": "land_of_town_EN3",
+      "Name": "Land of Saneopa",
+      "SettlementIds": [
+        "town_EN3",
+        "village_EN3_3"
+      ]
+    },
+    {
+      "Id": "land_of_town_EN4",
+      "Name": "Land of Argoron",
+      "SettlementIds": [
+        "town_EN4",
+        "village_EN4_4"
+      ]
+    },
+    {
+      "Id": "land_of_town_EN5",
+      "Name": "Land of Myzea",
+      "SettlementIds": [
+        "town_EN5",
+        "village_EN5_2",
+        "village_EN5_4"
+      ]
+    },
+    {
+      "Id": "land_of_town_EN6",
+      "Name": "Land of Amprela",
+      "SettlementIds": [
+        "town_EN6",
+        "village_EN6_2"
+      ]
+    },
+    {
+      "Id": "land_of_castle_EW1",
+      "Name": "Land of Garontor Castle",
+      "SettlementIds": [
+        "castle_EW1",
+        "castle_village_EW1_2"
+      ]
+    },
+    {
+      "Id": "land_of_castle_EW2",
+      "Name": "Land of Thorios Castle",
+      "SettlementIds": [
+        "castle_EW2",
+        "castle_village_EW2_2"
+      ]
+    },
+    {
+      "Id": "land_of_castle_EW3",
+      "Name": "Land of Onica Castle",
+      "SettlementIds": [
+        "castle_EW3",
+        "castle_village_EW3_2"
+      ]
+    },
+    {
+      "Id": "land_of_castle_EW4",
+      "Name": "Land of Thractorae Castle",
+      "SettlementIds": [
+        "castle_EW4",
+        "castle_village_EW4_2"
+      ]
+    },
+    {
+      "Id": "land_of_castle_EW5",
+      "Name": "Land of Veron Castle",
+      "SettlementIds": [
+        "castle_EW5",
+        "castle_village_EW5_2"
+      ]
+    },
+    {
+      "Id": "land_of_castle_EW6",
+      "Name": "Land of Hertogea Castle",
+      "SettlementIds": [
+        "castle_EW6",
+        "castle_village_EW6_2"
+      ]
+    },
+    {
+      "Id": "land_of_castle_EW7",
+      "Name": "Land of Oristocorys Castle",
+      "SettlementIds": [
+        "castle_EW7",
+        "castle_village_EW7_2"
+      ]
+    },
+    {
+      "Id": "land_of_castle_EW8",
+      "Name": "Land of Gersegos Castle",
+      "SettlementIds": [
+        "castle_EW8",
+        "castle_village_EW8_2"
+      ]
+    },
+    {
+      "Id": "land_of_town_EW1",
+      "Name": "Land of Lageta",
+      "SettlementIds": [
+        "town_EW1",
+        "village_EW1_2"
+      ]
+    },
+    {
+      "Id": "land_of_town_EW2",
+      "Name": "Land of Zeonica",
+      "SettlementIds": [
+        "town_EW2",
+        "village_EW2_3",
+        "village_EW2_4"
+      ]
+    },
+    {
+      "Id": "land_of_town_EW3",
+      "Name": "Land of Jalmarys",
+      "SettlementIds": [
+        "town_EW3",
+        "village_EW3_3"
+      ]
+    },
+    {
+      "Id": "land_of_town_EW4",
+      "Name": "Land of Ortysia",
+      "SettlementIds": [
+        "town_EW4",
+        "village_EW4_3",
+        "village_EW4_4"
+      ]
+    },
+    {
+      "Id": "land_of_town_EW5",
+      "Name": "Land of Amitatys",
+      "SettlementIds": [
+        "town_EW5",
+        "village_EW5_2"
+      ]
+    },
+    {
+      "Id": "land_of_town_EW6",
+      "Name": "Land of Rhotae",
+      "SettlementIds": [
+        "town_EW6",
+        "village_EW6_3",
+        "village_EW6_4"
+      ]
+    },
+    {
+      "Id": "land_of_castle_ES1",
+      "Name": "Land of Odrysa Castle",
+      "SettlementIds": [
+        "castle_ES1",
+        "castle_village_ES1_2"
+      ]
+    },
+    {
+      "Id": "land_of_castle_ES2",
+      "Name": "Land of Corenia Castle",
+      "SettlementIds": [
+        "castle_ES2",
+        "castle_village_ES2_2"
+      ]
+    },
+    {
+      "Id": "land_of_castle_ES3",
+      "Name": "Land of Melion Castle",
+      "SettlementIds": [
+        "castle_ES3",
+        "castle_village_ES3_2"
+      ]
+    },
+    {
+      "Id": "land_of_castle_ES4",
+      "Name": "Land of Lavenia Castle",
+      "SettlementIds": [
+        "castle_ES4",
+        "castle_village_ES4_2"
+      ]
+    },
+    {
+      "Id": "land_of_castle_ES5",
+      "Name": "Land of Morenia Castle",
+      "SettlementIds": [
+        "castle_ES5",
+        "castle_village_ES5_2"
+      ]
+    },
+    {
+      "Id": "land_of_castle_ES6",
+      "Name": "Land of Sestadaim Castle",
+      "SettlementIds": [
+        "castle_ES6",
+        "castle_village_ES6_2"
+      ]
+    },
+    {
+      "Id": "land_of_castle_ES7",
+      "Name": "Land of Jogurys Castle",
+      "SettlementIds": [
+        "castle_ES7",
+        "castle_village_ES7_2"
+      ]
+    },
+    {
+      "Id": "land_of_castle_ES8",
+      "Name": "Land of Chanopsis Castle",
+      "SettlementIds": [
+        "castle_ES8",
+        "castle_village_ES8_2"
+      ]
+    },
+    {
+      "Id": "land_of_town_ES1",
+      "Name": "Land of Danustica",
+      "SettlementIds": [
+        "town_ES1",
+        "village_ES1_3",
+        "village_ES1_4"
+      ]
+    },
+    {
+      "Id": "land_of_town_ES2",
+      "Name": "Land of Vostrum",
+      "SettlementIds": [
+        "town_ES2",
+        "village_ES2_3",
+        "village_ES2_4"
+      ]
+    },
+    {
+      "Id": "land_of_town_ES3",
+      "Name": "Land of Poros",
+      "SettlementIds": [
+        "town_ES3",
+        "village_ES3_2",
+        "village_ES3_3"
+      ]
+    },
+    {
+      "Id": "land_of_town_ES4",
+      "Name": "Land of Lycaron",
+      "SettlementIds": [
+        "town_ES4",
+        "village_ES4_3"
+      ]
+    },
+    {
+      "Id": "land_of_town_ES5",
+      "Name": "Land of Onira",
+      "SettlementIds": [
+        "town_ES5",
+        "village_ES5_2",
+        "village_ES5_3"
+      ]
+    },
+    {
+      "Id": "land_of_town_ES6",
+      "Name": "Land of Phycaon",
+      "SettlementIds": [
+        "town_ES6",
+        "village_ES6_2"
+      ]
+    },
+    {
+      "Id": "land_of_town_ES7",
+      "Name": "Land of Syronea",
+      "SettlementIds": [
+        "town_ES7",
+        "village_ES7_2"
+      ]
+    },
+    {
+      "Id": "land_of_castle_S1",
+      "Name": "Land of Ustokol Castle",
+      "SettlementIds": [
+        "castle_S1",
+        "castle_village_S1_2"
+      ]
+    },
+    {
+      "Id": "land_of_castle_S2",
+      "Name": "Land of Mazhadan Castle",
+      "SettlementIds": [
+        "castle_S2",
+        "castle_village_S2_2"
+      ]
+    },
+    {
+      "Id": "land_of_castle_S3",
+      "Name": "Land of Nevyansk Castle",
+      "SettlementIds": [
+        "castle_S3",
+        "castle_village_S3_2"
+      ]
+    },
+    {
+      "Id": "land_of_castle_S4",
+      "Name": "Land of Kranirog Castle",
+      "SettlementIds": [
+        "castle_S4",
+        "castle_village_S4_2"
+      ]
+    },
+    {
+      "Id": "land_of_castle_S5",
+      "Name": "Land of Ov Castle",
+      "SettlementIds": [
+        "castle_S5",
+        "castle_village_S5_2"
+      ]
+    },
+    {
+      "Id": "land_of_castle_S6",
+      "Name": "Land of Takor Castle",
+      "SettlementIds": [
+        "castle_S6",
+        "castle_village_S6_2"
+      ]
+    },
+    {
+      "Id": "land_of_castle_S7",
+      "Name": "Land of Urikskala Castle",
+      "SettlementIds": [
+        "castle_S7",
+        "castle_village_S7_2"
+      ]
+    },
+    {
+      "Id": "land_of_castle_S8",
+      "Name": "Land of Vladiv Castle",
+      "SettlementIds": [
+        "castle_S8",
+        "castle_village_S8_2"
+      ]
+    },
+    {
+      "Id": "land_of_town_S1",
+      "Name": "Land of Varcheg",
+      "SettlementIds": [
+        "town_S1",
+        "village_S1_3"
+      ]
+    },
+    {
+      "Id": "land_of_town_S2",
+      "Name": "Land of Balgard",
+      "SettlementIds": [
+        "town_S2",
+        "village_S2_2"
+      ]
+    },
+    {
+      "Id": "land_of_town_S3",
+      "Name": "Land of Omor",
+      "SettlementIds": [
+        "town_S3",
+        "village_S3_2"
+      ]
+    },
+    {
+      "Id": "land_of_town_S4",
+      "Name": "Land of Varnovapol",
+      "SettlementIds": [
+        "town_S4",
+        "village_S4_3",
+        "village_S4_4"
+      ]
+    },
+    {
+      "Id": "land_of_town_S5",
+      "Name": "Land of Tyal",
+      "SettlementIds": [
+        "town_S5",
+        "village_S5_2"
+      ]
+    },
+    {
+      "Id": "land_of_town_S6",
+      "Name": "Land of Sibir",
+      "SettlementIds": [
+        "town_S6",
+        "village_S6_2",
+        "village_S6_3"
+      ]
+    },
+    {
+      "Id": "land_of_town_S7",
+      "Name": "Land of Revyl",
+      "SettlementIds": [
+        "town_S7",
+        "village_S7_2"
+      ]
+    },
+    {
+      "Id": "land_of_castle_A1",
+      "Name": "Land of Tubilis Castle",
+      "SettlementIds": [
+        "castle_A1",
+        "castle_village_A1_2"
+      ]
+    },
+    {
+      "Id": "land_of_castle_A2",
+      "Name": "Land of Sahel Castle",
+      "SettlementIds": [
+        "castle_A2",
+        "castle_village_A2_2"
+      ]
+    },
+    {
+      "Id": "land_of_castle_A3",
+      "Name": "Land of Ain Baliq Castle",
+      "SettlementIds": [
+        "castle_A3",
+        "castle_village_A3_2"
+      ]
+    },
+    {
+      "Id": "land_of_castle_A4",
+      "Name": "Land of Medeni Castle",
+      "SettlementIds": [
+        "castle_A4",
+        "castle_village_A4_2"
+      ]
+    },
+    {
+      "Id": "land_of_castle_A5",
+      "Name": "Land of Jamayeh Castle",
+      "SettlementIds": [
+        "castle_A5",
+        "castle_village_A5_2"
+      ]
+    },
+    {
+      "Id": "land_of_castle_A6",
+      "Name": "Land of Shibal Zumr Castle",
+      "SettlementIds": [
+        "castle_A6",
+        "castle_village_A6_2"
+      ]
+    },
+    {
+      "Id": "land_of_castle_A7",
+      "Name": "Land of Uqba Castle",
+      "SettlementIds": [
+        "castle_A7",
+        "castle_village_A7_2"
+      ]
+    },
+    {
+      "Id": "land_of_castle_A8",
+      "Name": "Land of Tamnuh Castle",
+      "SettlementIds": [
+        "castle_A8",
+        "castle_village_A8_2"
+      ]
+    },
+    {
+      "Id": "land_of_castle_A9",
+      "Name": "Land of Barihal Castle",
+      "SettlementIds": [
+        "castle_A9",
+        "castle_village_A9_2"
+      ]
+    },
+    {
+      "Id": "land_of_town_A1",
+      "Name": "Land of Quyaz",
+      "SettlementIds": [
+        "town_A1",
+        "village_A1_2",
+        "village_A1_4"
+      ]
+    },
+    {
+      "Id": "land_of_town_A2",
+      "Name": "Land of Husn Fulq",
+      "SettlementIds": [
+        "town_A2",
+        "village_A2_3"
+      ]
+    },
+    {
+      "Id": "land_of_town_A3",
+      "Name": "Land of Iyakis",
+      "SettlementIds": [
+        "town_A3",
+        "village_A3_3"
+      ]
+    },
+    {
+      "Id": "land_of_town_A4",
+      "Name": "Land of Razih",
+      "SettlementIds": [
+        "town_A4",
+        "village_A4_2",
+        "village_A4_4"
+      ]
+    },
+    {
+      "Id": "land_of_town_A5",
+      "Name": "Land of Hubyar",
+      "SettlementIds": [
+        "town_A5",
+        "village_A5_2",
+        "village_A5_3"
+      ]
+    },
+    {
+      "Id": "land_of_town_A6",
+      "Name": "Land of Sanala",
+      "SettlementIds": [
+        "town_A6",
+        "village_A6_2",
+        "village_A6_3",
+        "village_A6_4"
+      ]
+    },
+    {
+      "Id": "land_of_town_A7",
+      "Name": "Land of Askar",
+      "SettlementIds": [
+        "town_A7",
+        "village_A7_3",
+        "village_A7_4"
+      ]
+    },
+    {
+      "Id": "land_of_town_A8",
+      "Name": "Land of Qasira",
+      "SettlementIds": [
+        "town_A8",
+        "village_A8_2"
+      ]
+    },
+    {
+      "Id": "land_of_castle_V1",
+      "Name": "Land of Usanc Castle",
+      "SettlementIds": [
+        "castle_V1"
+      ]
+    },
+    {
+      "Id": "land_of_castle_V2",
+      "Name": "Land of Hongard Castle",
+      "SettlementIds": [
+        "castle_V2",
+        "castle_village_V2_2"
+      ]
+    },
+    {
+      "Id": "land_of_castle_V3",
+      "Name": "Land of Drapand Castle",
+      "SettlementIds": [
+        "castle_V3",
+        "castle_village_V3_2"
+      ]
+    },
+    {
+      "Id": "land_of_castle_V4",
+      "Name": "Land of Ormanfard Castle",
+      "SettlementIds": [
+        "castle_V4"
+      ]
+    },
+    {
+      "Id": "land_of_castle_V5",
+      "Name": "Land of Tirby Castle",
+      "SettlementIds": [
+        "castle_V5",
+        "castle_village_V5_2"
+      ]
+    },
+    {
+      "Id": "land_of_castle_V6",
+      "Name": "Land of Caleus Castle",
+      "SettlementIds": [
+        "castle_V6",
+        "castle_village_V6_2"
+      ]
+    },
+    {
+      "Id": "land_of_castle_V7",
+      "Name": "Land of Talivel Castle",
+      "SettlementIds": [
+        "castle_V7",
+        "castle_village_V7_2"
+      ]
+    },
+    {
+      "Id": "land_of_castle_V8",
+      "Name": "Land of Verecsand Castle",
+      "SettlementIds": [
+        "castle_V8",
+        "castle_village_V8_2"
+      ]
+    },
+    {
+      "Id": "land_of_town_V1",
+      "Name": "Land of Sargot",
+      "SettlementIds": [
+        "town_V1",
+        "village_V1_2"
+      ]
+    },
+    {
+      "Id": "land_of_town_V2",
+      "Name": "Land of Ocs Hall",
+      "SettlementIds": [
+        "town_V2",
+        "village_V2_2",
+        "village_V2_3"
+      ]
+    },
+    {
+      "Id": "land_of_town_V3",
+      "Name": "Land of Pravend",
+      "SettlementIds": [
+        "town_V3",
+        "village_V3_3",
+        "village_V3_4"
+      ]
+    },
+    {
+      "Id": "land_of_town_V5",
+      "Name": "Land of Galend",
+      "SettlementIds": [
+        "town_V5",
+        "village_V5_2",
+        "village_V5_3"
+      ]
+    },
+    {
+      "Id": "land_of_town_V6",
+      "Name": "Land of Jaculan",
+      "SettlementIds": [
+        "town_V6",
+        "village_V6_2",
+        "village_V6_3",
+        "village_V6_4"
+      ]
+    },
+    {
+      "Id": "land_of_town_V7",
+      "Name": "Land of Charas",
+      "SettlementIds": [
+        "town_V7",
+        "village_V7_2"
+      ]
+    },
+    {
+      "Id": "land_of_town_V8",
+      "Name": "Land of Ostican",
+      "SettlementIds": [
+        "town_V8",
+        "village_V8_2",
+        "village_V8_3"
+      ]
+    },
+    {
+      "Id": "land_of_town_V9",
+      "Name": "Land of Rovalt",
+      "SettlementIds": [
+        "town_V9",
+        "village_V9_2"
+      ]
+    },
+    {
+      "Id": "land_of_castle_B1",
+      "Name": "Land of Ab Comer Castle",
+      "SettlementIds": [
+        "castle_B1",
+        "castle_village_B1_2"
+      ]
+    },
+    {
+      "Id": "land_of_castle_B2",
+      "Name": "Land of Llanoc Hen Castle",
+      "SettlementIds": [
+        "castle_B2",
+        "castle_village_B2_2"
+      ]
+    },
+    {
+      "Id": "land_of_castle_B3",
+      "Name": "Land of Druimmor Castle",
+      "SettlementIds": [
+        "castle_B3",
+        "castle_village_B3_2"
+      ]
+    },
+    {
+      "Id": "land_of_castle_B4",
+      "Name": "Land of Pendraic Castle",
+      "SettlementIds": [
+        "castle_B4",
+        "castle_village_B4_2"
+      ]
+    },
+    {
+      "Id": "land_of_castle_B5",
+      "Name": "Land of Rhemtoil Castle",
+      "SettlementIds": [
+        "castle_B5",
+        "castle_village_B5_2"
+      ]
+    },
+    {
+      "Id": "land_of_castle_B6",
+      "Name": "Land of Flintolg Castle",
+      "SettlementIds": [
+        "castle_B6",
+        "castle_village_B6_2"
+      ]
+    },
+    {
+      "Id": "land_of_castle_B7",
+      "Name": "Land of Aster Castle",
+      "SettlementIds": [
+        "castle_B7",
+        "castle_village_B7_2"
+      ]
+    },
+    {
+      "Id": "land_of_castle_B8",
+      "Name": "Land of Uthelaim Castle",
+      "SettlementIds": [
+        "castle_B8",
+        "castle_village_B8_2"
+      ]
+    },
+    {
+      "Id": "land_of_town_B1",
+      "Name": "Land of Marunath",
+      "SettlementIds": [
+        "town_B1",
+        "village_B1_2",
+        "village_B1_3",
+        "village_B1_4"
+      ]
+    },
+    {
+      "Id": "land_of_town_B2",
+      "Name": "Land of Dunglanys",
+      "SettlementIds": [
+        "town_B2",
+        "village_B2_2",
+        "village_B2_3"
+      ]
+    },
+    {
+      "Id": "land_of_town_B3",
+      "Name": "Land of Car Banseth",
+      "SettlementIds": [
+        "town_B3",
+        "village_B3_2",
+        "village_B3_3"
+      ]
+    },
+    {
+      "Id": "land_of_town_B4",
+      "Name": "Land of Seonon",
+      "SettlementIds": [
+        "town_B4",
+        "village_B4_2",
+        "village_B4_3",
+        "village_B4_4"
+      ]
+    },
+    {
+      "Id": "land_of_town_B5",
+      "Name": "Land of Pen Cannoc",
+      "SettlementIds": [
+        "town_B5",
+        "village_B5_2",
+        "village_B5_3"
+      ]
+    },
+    {
+      "Id": "land_of_castle_K1",
+      "Name": "Land of Usek Castle",
+      "SettlementIds": [
+        "castle_K1",
+        "castle_village_K1_2"
+      ]
+    },
+    {
+      "Id": "land_of_castle_K2",
+      "Name": "Land of Akiser Castle",
+      "SettlementIds": [
+        "castle_K2",
+        "castle_village_K2_2"
+      ]
+    },
+    {
+      "Id": "land_of_castle_K3",
+      "Name": "Land of Hakkun Castle",
+      "SettlementIds": [
+        "castle_K3",
+        "castle_village_K3_2"
+      ]
+    },
+    {
+      "Id": "land_of_castle_K4",
+      "Name": "Land of Tepes Castle",
+      "SettlementIds": [
+        "castle_K4",
+        "castle_village_K4_2"
+      ]
+    },
+    {
+      "Id": "land_of_castle_K5",
+      "Name": "Land of Khimli Castle",
+      "SettlementIds": [
+        "castle_K5",
+        "castle_village_K5_2"
+      ]
+    },
+    {
+      "Id": "land_of_castle_K6",
+      "Name": "Land of Dinar Castle",
+      "SettlementIds": [
+        "castle_K6",
+        "castle_village_K6_2"
+      ]
+    },
+    {
+      "Id": "land_of_castle_K7",
+      "Name": "Land of Simira Castle",
+      "SettlementIds": [
+        "castle_K7",
+        "castle_village_K7_2"
+      ]
+    },
+    {
+      "Id": "land_of_castle_K8",
+      "Name": "Land of Erzenur Castle",
+      "SettlementIds": [
+        "castle_K8",
+        "castle_village_K8_2"
+      ]
+    },
+    {
+      "Id": "land_of_castle_K9",
+      "Name": "Land of Kaysar Castle",
+      "SettlementIds": [
+        "castle_K9",
+        "castle_village_K9_2"
+      ]
+    },
+    {
+      "Id": "land_of_town_K1",
+      "Name": "Land of Baltakhand",
+      "SettlementIds": [
+        "town_K1",
+        "village_K1_2",
+        "village_K1_4"
+      ]
+    },
+    {
+      "Id": "land_of_town_K2",
+      "Name": "Land of Akkalat",
+      "SettlementIds": [
+        "town_K2",
+        "village_K2_2"
+      ]
+    },
+    {
+      "Id": "land_of_town_K3",
+      "Name": "Land of Makeb",
+      "SettlementIds": [
+        "town_K3",
+        "village_K3_2",
+        "village_K3_3"
+      ]
+    },
+    {
+      "Id": "land_of_town_K4",
+      "Name": "Land of Ortongard",
+      "SettlementIds": [
+        "town_K4",
+        "village_K4_3",
+        "village_K4_4"
+      ]
+    },
+    {
+      "Id": "land_of_town_K5",
+      "Name": "Land of Chaikand",
+      "SettlementIds": [
+        "town_K5",
+        "village_K5_3",
+        "village_K5_4"
+      ]
+    },
+    {
+      "Id": "land_of_town_K6",
+      "Name": "Land of Odokh",
+      "SettlementIds": [
+        "town_K6",
+        "village_K6_2",
+        "village_K6_3"
       ]
     }
   ]
