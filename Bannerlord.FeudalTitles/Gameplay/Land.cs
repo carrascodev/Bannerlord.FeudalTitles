@@ -19,6 +19,10 @@ public class Land : ILand
     public string Name { get; set; }
     [JsonProperty]
     public string[] SettlementIds { get; set; }
+
+    [JsonProperty]
+    public string LandOwner { get; set; }
+    
     [JsonIgnore]
     public Settlement[] Settlements { get; }
 
@@ -30,6 +34,10 @@ public class Land : ILand
             for (int i = 0; i < SettlementIds.Length; i++)
             {
                 Settlements[i] = Settlement.Find(SettlementIds[i]);
+                if (Settlements[i].IsTown || Settlements[i].IsCastle)
+                {
+                    LandOwner = Settlements[i].Owner.StringId;
+                }
             }
         }
     }

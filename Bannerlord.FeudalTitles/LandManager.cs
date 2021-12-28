@@ -67,16 +67,17 @@ public class LandManager : GenericSingleton<LandManager>
             var land = new Land()
             {
                 Id = "land_of_" + settlement.StringId,
-                Name = "Land of " + settlement.Name,
+                Name = "Land of " + settlement.Name.ToString().Replace(" Castle",""),
             };
 
             land.SettlementIds = new string[settlement.BoundVillages.Count + 1];
             land.SettlementIds[0] = settlement.StringId;
+            land.LandOwner = settlement.Owner.StringId;
 
-            for (int index = 1; index < settlement.BoundVillages.Count; index++)
+            for (int i = 1; i < settlement.BoundVillages.Count; i++)
             {
-                var village = settlement.BoundVillages[index];
-                land.SettlementIds[index] = village.Settlement.StringId;
+                var village = settlement.BoundVillages[i];
+                land.SettlementIds[i] = village.Settlement.StringId;
             }
 
             _lands.Add(land);
