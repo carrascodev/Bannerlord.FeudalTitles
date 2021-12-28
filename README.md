@@ -28,7 +28,7 @@ This mod aims to bring a small piece of CK3 to Bannerlord.
     - A Duke/Duchess is the ruler of 2+ Counties.
 - County
     - A Count is the ruler of a County.
-- Baron
-    - Owner of a castle within a County
+- Barony
+    - A baron is the owner of a castle.
 - Vassal / Squire
-    - Owner of a town / piece of land inside county other than a Castle/Town
+    - Owner of a village / piece of land inside county other than a Castle/Town
